@@ -154,10 +154,10 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        padding: 15px 35px;
+        padding: 25px 35px;
 
         .nav-hammer {
-            gap: 450px;
+            gap: 350px;
 
             h1 {
                 font-size: 30px;
@@ -245,7 +245,7 @@
         padding: 25px 35px;
 
         .nav-hammer {
-            gap: 200px;
+            gap: 150px;
 
             h1 {
                 font-size: 16px;
