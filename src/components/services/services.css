@@ -246,14 +246,14 @@ h4 {
 
     .service-right-img {
         border-radius: 10px;
-        width: 250px;
-        height: 250px;
+        width: 220px;
+        height: 220px;
     }
 
     .service-image {
-        width: 230px;
-        height: 230px;
-        right: -90px;
+        width: 200px;
+        height: 200px;
+        right: -40px;
     }
 }
 
@@ -279,12 +279,12 @@ h4 {
         padding: 20px 0px;
     
         &:hover::after, &.active::after {
-            width: 43%;
+            width: 48%;
             top: 129px;
         }
     
         &::before {
-            width: 43%;
+            width: 48%;
             top: 129px;
         }
     }
@@ -337,13 +337,13 @@ h4 {
 
     .service-right-img {
         border-radius: 10px;
-        width: 230px;
-        height: 230px;
+        width: 220px;
+        height: 220px;
     }
 
     .service-image {
-        width: 210px;
-        height: 210px;
-        right: -50px;
+        width: 200px;
+        height: 200px;
+        right: -40px;
     }
 }
