@@ -35,22 +35,21 @@
     .feature-cards {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        gap: 20px;
+        justify-content: center;
 
         .feature-upload-card {
             display: flex;
             flex-direction: column;
             background-color: white;
             align-items: center;
-            padding: 20px;
+            padding: 8px;
             position: relative;
 
             .feature-card-item {
                 display: flex;
                 flex-direction: column;
                 position: absolute;
-                top: 380px;
+                top: 370px;
                 background-color: white;
 
                 .feature-h2 {
