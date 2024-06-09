@@ -1,0 +1,62 @@
+.build {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    background-color: rgba(48, 78, 210, 0.951);
+    gap: 10px;
+
+    .build-span {
+        padding: 18px 30px;
+        margin-top: 70px;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 30px;
+        color: rgba(48, 78, 210, 0.951);
+        font-size: 18px;
+        font-weight: 600;
+        transition: 0.5s;
+
+        &:hover {
+            background-color: rgba(48, 78, 210, 0.951);
+            cursor: pointer;
+            color: white;
+        }
+    }
+
+    h1 {
+        font-size: 65px;
+        font-weight: 900;
+        text-align: center;
+        color: white;
+    }
+    
+    .build-service-p {
+        color: white;
+        text-align: center;
+        max-width: 600px;
+        font-size: 27px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:412px){
+    .build {
+    
+        .build-span {
+            padding: 10px 20px;
+            margin-top: 50px;
+        }
+    
+        h1 {
+            font-size: 50px;
+            font-weight: 800;
+        }
+        
+        .build-service-p {
+            font-size: 22px;
+        }
+    }
+}
