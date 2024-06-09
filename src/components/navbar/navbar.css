@@ -99,7 +99,7 @@
     background-color: white;
 
     .nav-hammer {
-        gap: 185px;
+        gap: 165px;
 
         h1 {
             font-size: 16px;
@@ -155,7 +155,7 @@
         padding: 15px 35px;
 
         .nav-hammer {
-            gap: 500px;
+            gap: 450px;
 
             h1 {
                 font-size: 30px;
@@ -239,7 +239,7 @@
         padding: 15px 25px;
 
         .nav-hammer {
-            gap: 245px;
+            gap: 230px;
 
             h1 {
                 font-size: 16px;
