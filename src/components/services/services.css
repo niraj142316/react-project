@@ -279,12 +279,12 @@ h4 {
         padding: 30px 0px;
     
         &:hover::after, &.active::after {
-            width: 51%;
+            width: 54%;
             top: 142px;
         }
     
         &::before {
-            width: 51%;
+            width: 54%;
             top: 142px;
         }
     }
