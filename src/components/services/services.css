@@ -276,16 +276,16 @@ h4 {
     }
     .service-one {
         width: 240px;
-        padding: 20px 0px;
+        padding: 30px 0px;
     
         &:hover::after, &.active::after {
             width: 48%;
-            top: 129px;
+            top: 144px;
         }
     
         &::before {
             width: 48%;
-            top: 129px;
+            top: 144px;
         }
     }
 
