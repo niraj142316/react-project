@@ -157,7 +157,7 @@
         padding: 25px 35px;
 
         .nav-hammer {
-            gap: 350px;
+            gap: 500px;
 
             h1 {
                 font-size: 30px;
@@ -182,12 +182,12 @@
         }
     }
 
-    /* #nav.active {
-        width: 700px;
+    #nav.active {
+        width: 730px;
         padding: 25px 45px;
 
         .nav-hammer {
-            gap: 435px;
+            gap: 475px;
 
             h1 {
                 font-size: 25px;
@@ -199,7 +199,7 @@
             align-items: flex-start;
             justify-content: flex-start;
             margin-top: 40px;
-            margin-bottom: 500px;
+            margin-bottom: 200px;
 
             li {
                 margin-bottom: 20px;
@@ -234,7 +234,7 @@
             }
         }
 
-    } */
+    }
 }
 
 @media screen and (max-width:412px) {
@@ -245,7 +245,7 @@
         padding: 25px 35px;
 
         .nav-hammer {
-            gap: 150px;
+            gap: 230px;
 
             h1 {
                 font-size: 16px;
@@ -269,25 +269,25 @@
             display: none;
         }
     }
-    /* #nav.active{
-        width: 350px;
+    #nav.active{
+        width: 390px;
         padding: 30px;
         .nav-hammer {
-            gap: 125px;
+            gap: 190px;
     
             h1 {
-                font-size: 25px;
+                font-size: 22px;
             }
         }
         #menu {
-            margin-bottom:300px;
+            margin-bottom:200px;
     
             li {
-                margin-bottom: 20px;
+                margin-bottom: 15px;
     
                 a {
                     padding: 15px;
-                    font-size: 24px;
+                    font-size: 20px;
                     font-weight: 600;
                 }
             }
@@ -298,7 +298,7 @@
         }
     
         #mobile i {
-            font-size: 25px;
+            font-size: 23px;
             cursor: pointer;
         }
     
@@ -309,11 +309,11 @@
             gap: 5px;
     
             a {
-                font-size: 20px;
+                font-size: 18px;
                 font-weight: 500;
                 padding: 8px 20px;
             }     
         }
     
-    } */
+    }
 }
