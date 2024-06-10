@@ -3,3 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+.carosel{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 247, 251);
+}
