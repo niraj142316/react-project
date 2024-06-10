@@ -1,0 +1,349 @@
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    background-color: rgb(242, 246, 246);
+    gap: 5px;
+
+    .service-span,.service-details-span {
+        text-align: center;
+        padding: 18px 30px;
+        margin: 10px 0px;
+        margin-top: 100px;
+        background-color: rgba(53, 13, 145, 0.951);
+        border: 1px solid rgba(53, 13, 145, 0.951);
+        border-radius: 30px;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        transition: 0.5s;
+
+        &:hover {
+            background-color: white;
+            cursor: pointer;
+            color: rgba(53, 13, 145, 0.951);
+        }
+    }
+
+    h1 {
+        font-size: 45px;
+        font-weight: 700;
+        margin-bottom: 14px;
+        text-align: center;
+    }
+
+    .service-p {
+        text-align: center;
+        max-width: 600px;
+    }
+}
+
+.service-background-change {
+    background-color: white;
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 8px 1px rgb(216, 223, 227);
+    border-radius: 20px;
+    margin: 0px auto;
+    margin-top: 100px;
+    width:95%;
+}
+
+.service-categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+
+/* .service-categories::-webkit-scrollbar {
+    width: 5px;
+} */
+
+.service-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 25px;
+
+    &:hover, &.active {
+        background-color: rgb(223, 225, 227);
+        color: rgb(130, 198, 238);
+    }
+
+    &:hover::after, &.active::after {
+        content: "";
+        width: 15%;
+        height: 3px;
+        background-color: rgb(38, 120, 168);
+        color: rgb(38, 120, 168);
+        position: absolute;
+        top: 162px;
+    }
+
+    &::before {
+        content: "";
+        width: 15%;
+        height: 3px;
+        background-color: rgb(187, 187, 187);
+        position: absolute;
+        top: 162px;
+    }
+}
+
+img {
+    width: 90px;
+    height: 80px;
+}
+
+.service-one-img {
+    /* padding: 0px 20px; */
+}
+
+h4 {
+    text-align: center;
+}
+
+.service-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    gap: 50px;
+}
+
+.service-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+
+    h3 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 21px;
+        font-weight: 500;
+    }
+}
+
+.service-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+    position: relative;
+}
+
+.service-right-img {
+    border-radius: 20px;
+    width: 350px;
+    height: 300px;
+}
+
+.service-image {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    right: -100px;
+    top: 140px;
+}
+
+@media screen and (max-width: 768px) {
+    .service-background-change {
+        padding: 20px;
+        width: 100%;
+    }
+    .service-container {
+        margin: 0px auto;
+        max-width: 650px;
+    }
+
+    .service-categories {
+        width: 98%;
+        align-items: flex-start;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        scrollbar-width: none;
+        margin-bottom: 30px;
+        gap:40px;
+    }
+    .service-one {
+        width: 240px;
+        padding: 20px 0px;
+    
+        &:hover::after, &.active::after {
+            width: 25%;
+            top: 129px;
+        }
+    
+        &::before {
+            width: 25%;
+            top: 129px;
+        }
+    }
+
+    .service-span {
+        margin-top: 60px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .service-p {
+        font-size: 16px;
+    }
+
+    .service-one-img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 0px 40px;
+    }
+
+    .service-details {
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+    .service-left {
+        padding: 0 20px;
+        width: 100%;
+        text-align: center;
+    
+        h3 {
+            font-size: 26px;
+        }
+    
+        p {
+            font-size: 17px;
+        }
+    }
+
+    .service-right {
+        position: relative;
+    }
+
+    .service-right-img {
+        border-radius: 10px;
+        width: 220px;
+        height: 220px;
+    }
+
+    .service-image {
+        width: 200px;
+        height: 200px;
+        right: -40px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .service-container {
+        margin: 0px 10px;
+        max-width: 380px;
+        align-items: center;
+    }
+
+    .service-categories {
+        width: 98%;
+        align-items: flex-start;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        scrollbar-width: none;
+        margin-bottom: 30px;
+        /* padding-left:680px; */
+        gap:40px;
+    }
+    .service-one {
+        width: 240px;
+        padding: 30px 0px;
+    
+        &:hover::after, &.active::after {
+            width: 48%;
+            top: 144px;
+        }
+    
+        &::before {
+            width: 48%;
+            top: 144px;
+        }
+    }
+
+    .service-span {
+        margin-top: 60px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .service-p {
+        font-size: 16px;
+    }
+
+    .service-one-img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 0px 40px;
+    }
+
+    .service-details {
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+    .service-left {
+        padding: 0 20px;
+        width: 100%;
+        text-align: center;
+    
+        h3 {
+            font-size: 26px;
+        }
+    
+        p {
+            font-size: 17px;
+        }
+    }
+
+    .service-right {
+        position: relative;
+    }
+
+    .service-right-img {
+        border-radius: 10px;
+        width: 220px;
+        height: 220px;
+    }
+
+    .service-image {
+        width: 200px;
+        height: 200px;
+        right: -40px;
+    }
+}

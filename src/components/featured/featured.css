@@ -1,0 +1,293 @@
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    gap: 5px;
+
+    .feature-span {
+        padding: 18px 30px;
+        margin: 10px 0px;
+        background-color: rgba(53, 13, 145, 0.951);
+        border: 1px solid rgba(53, 13, 145, 0.951);
+        border-radius: 30px;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        transition: 0.5s;
+
+        &:hover {
+            background-color: white;
+            cursor: pointer;
+            color: rgba(53, 13, 145, 0.951);
+        }
+    }
+
+    h1 {
+        font-size: 45px;
+        font-weight: 700;
+        margin-bottom: 14px;
+    }
+
+    .feature-cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .feature-upload-card {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            align-items: center;
+            padding: 8px;
+            position: relative;
+
+            .feature-card-item {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 370px;
+                background-color: white;
+
+                .feature-h2 {
+                    font-size: 26px;
+                    font-weight: 600;
+                }
+
+                .feature-group {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    cursor: pointer;
+
+                    p {
+                        font-size: 20px;
+                        font-weight: 500;
+                        color: rgb(17, 124, 141);
+                    }
+
+                    img {
+                        margin-top: 5px;
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+
+            .feature-card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                box-shadow: 0px 2px 0px 4px rgb(244, 246, 245);
+                -webkit-box-shadow: 0px 2px 0px 4px rgb(244, 246, 245);
+                -moz-box-shadow: 0px 2px 0px 4px rgb(244, 246, 245);
+                padding: 20px;
+                inline-size: 330px;
+                margin: 10px 0px;
+
+                .feature-btn-dropdown {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid gray;
+                    border-radius: 10px;
+                    inline-size: 100%;
+                    block-size: 58px;
+                    margin: 10px 0px;
+
+                    input {
+                        font-size: 19px;
+                        inline-size: 100%;
+                        border: none;
+                        outline: none;
+                        padding: 0px 15px;
+                    }
+
+                    .feature-url {
+                        background-color: rgb(204, 216, 216);
+                        padding: 16px;
+                        margin-top: 0.5%;
+                        border-radius: 10px;
+                    }
+
+                    .feature-input-sec {
+                        display: flex;
+                        align-items: center;
+                        height: 58px;
+
+                        .feature-inputImg {
+                            width: 30px;
+                            height: 30px;
+                            margin-right: 8px;
+                        }
+                    }
+                }
+
+                .feature-container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border: 2px dotted rgb(153, 167, 174);
+                    border-radius: 30px;
+                    width: 100%;
+                    height: 100%;
+                    margin: 10px 0px;
+                    padding: 10px 0px;
+
+                    .feature-firstImg {
+                        background-color: rgb(228, 245, 245);
+                        filter: drop-shadow(1px 1px 20px rgb(108, 215, 215));
+                        margin-top: 40px;
+                        margin-bottom: 20px;
+                        width: 50px;
+                        height: 50px;
+                        object-fit: cover;
+                        border-radius: 40%;
+                    }
+
+                    .feature-para {
+                        width: 45%;
+                        margin-bottom: 30px;
+                    }
+
+                    .feature-paraLast {
+                        margin-bottom: 30px;
+                    }
+
+                    button {
+                        padding: 12px 20px;
+                        margin: 8px 0px;
+                        background-color: rgba(53, 13, 145, 0.951);
+                        border: 1px solid rgba(53, 13, 145, 0.951);
+                        border-radius: 10px;
+                        color: white;
+                        font-size: 18px;
+                        font-weight: 600;
+                        transition: 0.feature-5s;
+
+                        &:hover {
+                            background-color: white;
+                            cursor: pointer;
+                            color: rgba(53, 13, 145, 0.951);
+                        }
+                    }
+
+                    .feature-btn-sub {
+                        padding: 12px 100px;
+                    }
+
+                    .feature-btn {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+
+                        .feature-mid {}
+
+                        .feature-mid-sub {
+                            background-color: white;
+                            color: black;
+
+                            &:hover {
+                                background-color: rgb(11, 10, 10);
+                                cursor: pointer;
+                                color: white;
+                            }
+                        }
+                    }
+
+                    .feature-input {
+                        inline-size: 80%;
+                        height: 52px;
+                        margin: 10px 0px;
+                        margin-bottom: 135px;
+
+                        input {
+                            inline-size: 100%;
+                            border: none;
+                            outline: none;
+                            padding: 0px 15px;
+                        }
+
+                        .feature-inputImg {
+                            width: 30px;
+                            height: 30px;
+                            margin-right: 8px;
+                        }
+                    }
+
+                    .feature-lastImg {
+                        margin-bottom: 20px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .feature {
+        width: 100%;
+
+        .feature-span {
+            padding: 10px 20px;
+            margin: 5px 0px;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 14px;
+        }
+
+        .feature-paragraph {
+            text-align: center;
+        }
+
+        .feature-cards {
+            flex-direction: column;
+            gap: 30px;
+    
+            .feature-upload-card {
+                .feature-card-item {
+                    padding: 0px 30px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:412px) {
+    .feature {
+        width: 100%;
+
+        .feature-span {
+            padding: 10px 20px;
+            margin: 5px 0px;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 14px;
+        }
+
+        .feature-paragraph {
+            text-align: center;
+        }
+
+        .feature-cards {
+            flex-direction: column;
+            gap: 30px;
+    
+            .feature-upload-card {
+                .feature-card-item {
+                    padding: 0px 30px;
+                }
+            }
+        }
+    }
+}
